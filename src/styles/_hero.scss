@@ -1,0 +1,39 @@
+.hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    object-fit: contain;
+    padding-bottom: 50px;
+    padding-top: 0;
+    
+    &__capa {
+        width: 100%;
+        color: #fff;
+        max-height: 650px;
+    }
+        &__container {
+            padding: 60px;
+            position: relative;
+            
+            
+            &__screen {
+
+                &__text {
+                    color: #000;
+                    margin-top: -190px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #fff;
+                    position: relative;
+                    padding: 20px;
+                    border-radius: 30px;
+                    font-size: 24px;
+                    font-weight: bold;
+                    
+                }
+            }
+        
+        }
+    
+}

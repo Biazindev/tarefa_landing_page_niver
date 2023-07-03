@@ -1,0 +1,47 @@
+.history {
+    padding: 80px;
+    padding-top: 90px;
+    
+    &--pastor {
+        background-image: linear-gradient(#04081d, #3ae207);
+    }
+
+    &--merchant {
+        background-image: linear-gradient(#3ae207, #d8fd06);
+    }
+
+    &--family {
+        background-image: linear-gradient(#d8fd06, #4d19ad);
+    }
+
+    &--image-left {
+        .container{
+            flex-direction: row-reverse;
+
+            h2 {
+                margin-right: 495px;
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        gap: 20px;
+        img {
+            max-width: 250px;
+            height: 200px;
+            border-radius: 10%;
+        }
+    }
+
+    &__title {
+        position: absolute;
+        
+        &__text {
+        line-height: 22px;
+        padding-top: 40px;
+    }
+    }
+
+    
+}
